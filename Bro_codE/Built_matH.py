@@ -7,6 +7,6 @@ z = 12
 #result = abs(y)
 #result = pow(4, 5)
 #result = max (x, y, z)
-#result = min (x, y, z)
+result = min (x, y, z)
 
 print(result)
