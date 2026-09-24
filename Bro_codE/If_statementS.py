@@ -10,13 +10,21 @@
   #  print("You are underage.")
 
 
-response = input("Would you like to buy a burger (Y/N)?: ")
+#response = input("Would you like to buy a burger (Y/N)?: ")
 
-if response == "Y":
-    print("That will be 20$.")
-elif response == "N":
-    print("Thank you for coming to Burger King.")
+#if response == "Y":
+ #   print("That will be 20$.")
+#elif response == "N":
+ #   print("Thank you for coming to Burger King.")
+#else:
+ #   print("Please choose from the responses.")
+
+name = input("Please enter your name: ")
+
+if name == "":
+    print("I think you did that by accident.")
+
 else:
-    print("Please choose from the responses.")
+    print(f"Hello {name}")
 
 
