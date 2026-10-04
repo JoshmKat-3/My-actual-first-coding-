@@ -19,12 +19,18 @@
 #else:
  #   print("Please choose from the responses.")
 
-name = input("Please enter your name: ")
+#name = input("Please enter your name: ")
 
-if name == "":
-    print("I think you did that by accident.")
+#if name == "":
+    #print("I think you did that by accident.")
 
-else:
-    print(f"Hello {name}")
+#else:
+ #   print(f"Hello {name}")
+
+status = False
+if status:
+    print("Welcome to Highdaways")
+else: 
+    print("please ask the tour guide on the balcony for directions")    
 
 
