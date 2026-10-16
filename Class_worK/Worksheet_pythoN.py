@@ -18,4 +18,7 @@ for score in scores:
 average = total / len(scores)
 
 
+
+
+
 print(average)    
