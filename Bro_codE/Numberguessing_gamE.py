@@ -13,6 +13,7 @@ while is_running:
 
     guess = input("Enter a number: ")
 
+# "isdigit()" checks that a whole number was entered
     if guess.isdigit():
         guess = int(guess)
         guesses += 1
